@@ -14,7 +14,7 @@
 window.addEventListener("load",(event)=>{
 
 //var t = document.querySelectorAll(".tc1 a[title], .tc4 a[title], .vn a[title], .tc2 a[title], .tc_t a[title], .tc_title a[title], .vndetails a[title], .anime abbr[title], .mainbox a[title] , .tc4[title]")
-let t = document.querySelectorAll("a[title][lang=ja-Latn]")
+let t = document.querySelectorAll("a[title][lang=ja-Latn], .anime abbr[title], .tc4[title]")
 //console.log(t)
 
 if (t.length != 0){
