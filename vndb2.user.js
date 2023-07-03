@@ -11,7 +11,11 @@
    tco4 ----> options
 */
 
-var t = document.querySelectorAll(".tc1 a[title], .tc4 a[title], .vn a[title], .tc2 a[title], .tc_t a[title], .tc_title a[title], .vndetails a[title], .anime abbr[title], .mainbox a[title] , .tc4[title]")
+window.addEventListener("load",(event)=>{
+
+//var t = document.querySelectorAll(".tc1 a[title], .tc4 a[title], .vn a[title], .tc2 a[title], .tc_t a[title], .tc_title a[title], .vndetails a[title], .anime abbr[title], .mainbox a[title] , .tc4[title]")
+let t = document.querySelectorAll("a[title][lang=ja-Latn]")
+//console.log(t)
 
 if (t.length != 0){
     for(var i=0; i<t.length; i++){
@@ -80,3 +84,5 @@ if (d){
     }
     d.innerHTML += "<br>standard deviation " + s + g(s)
 }
+
+});

@@ -1,5 +1,12 @@
 # VNDB_origin
 
+2023.6 vndb前端更新了，花了一分钟改了一下  
+其实账号preference里能直接改日语，还用脚本的原因是，文字显示日语的同时title里可以显示罗马字
+
+**使用时请把账号设置内title改为romanized**
+
+===
+
 自用
 
 vndb原文化脚本
